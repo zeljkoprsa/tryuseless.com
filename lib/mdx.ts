@@ -11,7 +11,7 @@ export interface PostMetadata {
   date: string;
   excerpt?: string;
   slug: string;
-  [key: string]: any; // For any additional frontmatter fields
+  [key: string]: any;
 }
 
 export interface Post {
@@ -30,7 +30,7 @@ export const getPostSlugs = (): string[] => {
     .map((path) => path.replace(/\.mdx?$/, ''));
 };
 
-// Get post content by slug
+// Get post content by slug - single declaration and implementation
 export const getPostBySlug = async (slug: string): Promise<Post> => {
   const postPath = path.join(POSTS_PATH, `${slug}.mdx`);
   const source = fs.readFileSync(postPath, 'utf8');
