@@ -26,7 +26,7 @@ const LandingPage = ({ latestPost }: LandingPageProps) => {
       {/* Minimal, zen-like header */}
       <header className="bg-white">
         <div className="max-w-5xl mx-auto px-6 py-12">
-          <h1 className="text-4xl font-light text-gray-900">tryuseless</h1>
+          <h1 className="text-4xl font-light text-gray-900">useless</h1>
         </div>
       </header>
 
@@ -45,8 +45,8 @@ const LandingPage = ({ latestPost }: LandingPageProps) => {
               <Music4 className="w-12 h-12 text-gray-400 group-hover:text-gray-600 transition-colors" />
             </div>
             <div className="mt-6">
-              <h2 className="text-xl font-light text-gray-900">metrodome</h2>
-              <p className="mt-2 text-gray-600">A space for practice.</p>
+              <h2 className="text-xl font-light text-gray-900">Metrodome</h2>
+              <p className="mt-2 text-gray-600">Every discipline needs practice.</p>
             </div>
           </div>
 
@@ -56,7 +56,7 @@ const LandingPage = ({ latestPost }: LandingPageProps) => {
             </div>
             <div className="mt-6">
               <h2 className="text-xl font-light text-gray-400">soon</h2>
-              <p className="mt-2 text-gray-400">Taking our time.</p>
+              <p className="mt-2 text-gray-400">Taking our sweet time.</p>
             </div>
           </div>
         </section>
@@ -91,7 +91,7 @@ const LandingPage = ({ latestPost }: LandingPageProps) => {
       <footer className="bg-white mt-24">
         <div className="max-w-5xl mx-auto px-6 py-12">
           <p className="text-gray-400 text-sm text-center">
-            ©2024 · sometimes nothing is everything
+            ©2024 · useless is nothing
           </p>
         </div>
       </footer>
